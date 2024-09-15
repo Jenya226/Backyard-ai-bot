@@ -46,7 +46,7 @@ def write_a_message(user_message):
     save_json_chat()
     bot.delete_message(user_message.chat.id, render_message)
     
-bot=tb.TeleBot('7431833180:AAE6aE2xg9EMbyLMFUhPRX3huO9k_-_PLS0') #enter token here
+bot=tb.TeleBot('') #enter token here
 
 #Start 
 
